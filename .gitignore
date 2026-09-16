@@ -1,0 +1,29 @@
+# XMake
+.xmake/
+
+# Build output
+build/
+
+# Compiled binaries / objects
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python stuff, if you later use Python for dataset tooling
+__pycache__/
+*.pyc
+.venv/
+
+# Local datasets
+# Uncomment if you DON'T want datasets in Git
+# data/
